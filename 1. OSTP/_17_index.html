@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX Example</title>
+    <script>
+        function makeRequest() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("result").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "_17_ajax_script.php", true); // Replace with your PHP script URL
+            xhttp.send();
+        }
+    </script>
+</head>
+<body>
+
+    <h1>AJAX functionality program </h1>
+    <button onclick="makeRequest()">Make AJAX Request</button>
+    <div id="result"></div>
+</body>
+</html>
