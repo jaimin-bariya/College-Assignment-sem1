@@ -1,0 +1,25 @@
+
+**Aim:** The goal is to gather requirements for an online taxi booking system, focusing on understanding the needs of users—customers and administrators—and identifying functional and non-functional requirements.
+
+**Users of the System:**
+- **Customer:** Individuals who visit the platform to book taxis online.
+- **Administrator/Seller:** Controls electronic product categories and manages their display on the website for customer purchase.
+
+**Functional Requirements:**
+- Display various taxi categories available for booking.
+- Allow customers to select desired taxi options.
+- Provide detailed information about selected taxis.
+- Enable admins to add/update taxi information for display.
+- Offer search options with multiple filters for easy navigation.
+- Facilitate user profiles, order details, newsletters, and customer support features.
+
+**Non-Functional Requirements:**
+- Support multiple payment methods (Credit Card, Debit Card, UPI).
+- Generate invoices with applicable charges and discounts.
+- Display frequently visited taxis by customers.
+- Ensure user-friendly interfaces, security measures, and SSL encryption for data protection.
+- Utilize steganography and digital watermarking to secure intellectual property and product images.
+- Provide support services for technical assistance and maintenance.
+
+**Conclusion:**
+This gathering activity comprehensively identified the system users and both functional and non-functional requirements essential for developing an efficient online taxi booking platform.
